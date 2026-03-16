@@ -74,6 +74,11 @@ The Tableau dashboard includes:
 
 Dashboard preview:
 
+Interactive dashboard available on Tableau Public.
+
+🔗 **View Interactive Dashboard:**  
+https://public.tableau.com/shared/2FTSMCPYJ?:display_count=n&:origin=viz_share_link
+
 ![Dashboard](images/dashboard_preview.png)
 
 ---
