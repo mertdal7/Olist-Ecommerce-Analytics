@@ -125,7 +125,7 @@ Olist-Ecommerce-Analytics
 │   └── dashboard_preview.png
 │
 └── sql
-    └── ecommerce_analysis.sql
+    └── olist.ecommerce_analysis.sql
 ```
 
 ---
