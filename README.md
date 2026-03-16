@@ -70,7 +70,7 @@ The Tableau dashboard includes:
 - Customer revenue concentration (Pareto)
 - Product category revenue
 - Cohort retention analysis
-- Purchase frequency distribution
+- Insights and recommendations
 
 Dashboard preview:
 
