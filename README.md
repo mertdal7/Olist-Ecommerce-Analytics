@@ -1,106 +1,112 @@
 # Olist E-Commerce Customer & Revenue Analytics
 
-## Project Overview
-
-This project analyzes customer behavior, revenue drivers, and retention patterns in a Brazilian e-commerce platform using the **Olist dataset**.
-
-The analysis focuses on understanding revenue growth, customer concentration, purchase behavior, and retention trends.
-
-The project combines **SQL analytics** with **Tableau visualization** to generate business insights.
+SQL and Tableau analysis of customer behavior, revenue drivers, and retention patterns using the Brazilian Olist e-commerce dataset.
 
 ---
 
-## Tools Used
+# Dashboard Preview
 
-- SQL (MySQL)
-- Tableau
-- Dataset: Olist Brazilian E-Commerce Dataset
+![Dashboard](images/dashboard_preview.png)
+
+Interactive Tableau dashboard:
+
+https://public.tableau.com/views/Olist_Customer_Revenue_Analysis/Dashboard1
 
 ---
 
-## Business Questions
+# Project Overview
 
-The analysis answers the following key business questions:
+This project analyzes an e-commerce platform to understand:
 
-1. Is the business growing over time?
-2. Which customers generate the most revenue?
-3. Which product categories drive revenue?
-4. Is there a retention problem?
+- how revenue is generated  
+- how customers behave  
+- whether the business has retention challenges  
+
+The analysis combines **SQL for data analysis** and **Tableau for visualization**.
+
+---
+
+# Business Questions
+
+The analysis focuses on answering the following questions:
+
+1. Is the business growing over time?  
+2. Which customers generate the most revenue?  
+3. Which product categories drive revenue?  
+4. Is there a customer retention problem?  
 5. How concentrated is revenue among customers?
 
 ---
 
-## Key Analyses
+# Key Insights
 
 ### Revenue Growth
 
-Monthly revenue trend shows steady growth throughout **2017**, with revenue stabilizing in **2018**.
+Revenue increased steadily during **2017**, indicating strong platform growth.
 
-### Customer Revenue Concentration
+### Revenue Concentration
 
-Pareto analysis shows:
+Top **20% of customers generate ~54% of total revenue**, showing moderate revenue concentration.
 
-- **Top 20% of customers generate ~54% of total revenue**
+### Purchase Behavior
 
-This indicates **moderate revenue concentration**.
+Approximately 97% of customers make only one purchase, highlighting a significant customer retention issue.
 
 ### Customer Retention
 
-Cohort analysis reveals that:
-
-- Retention drops sharply after the first purchase
-- Most customers do not return after their first order
-
-### Purchase Frequency
-
-Purchase frequency distribution shows:
-
-- **~97% of customers purchase only once**
-
-This indicates a major **repeat purchase opportunity**.
+Customer retention drops sharply after the first purchase.
 
 ---
 
-## Dashboard
+# Business Recommendations
 
-The Tableau dashboard includes:
+Potential actions for improving the business:
 
-- Revenue KPIs
-- Revenue trend over time
-- Customer revenue concentration (Pareto)
-- Product category revenue
-- Cohort retention analysis
-- Insights and recommendations
-
-Dashboard preview:
-
-Interactive dashboard available on Tableau Public.
-
-🔗 **View Interactive Dashboard:**  
-https://public.tableau.com/shared/2FTSMCPYJ?:display_count=n&:origin=viz_share_link
-
-![Dashboard](images/dashboard_preview.png)
+- Identify growth drivers and scale successful channels  
+- Retain high-value customers with loyalty programs  
+- Encourage repeat purchases via targeted promotions 
+- Improve post-purchase engagement and onboarding
 
 ---
 
-## Key Insights
+# Tech Stack
 
-- Revenue grew steadily during 2017
-- Top 20% of customers generate ~54% of revenue
-- ~97% of customers purchase only once
-- Customer retention drops significantly after the first purchase
+**SQL (MySQL)**  
+- Data transformation  
+- Window functions  
+
+**Tableau**  
+- Dashboard development  
+- Data visualization  
+
+Analytical techniques used:
+
+- Cohort retention analysis  
+- Pareto analysis  
+- Revenue trend analysis  
+- Purchase frequency analysis  
 
 ---
 
-## Business Recommendations
+# SQL Workflow
 
-- Develop loyalty programs to retain high-value customers
-- Improve post-purchase engagement to encourage repeat purchases
-- Target high-performing product categories for marketing campaigns
+The complete SQL analysis can be found here:
+
+```
+sql/ecommerce_analysis.sql
+```
+
+Main steps:
+
+- Data import and validation  
+- Core business metric calculations  
+- Customer behavior analysis  
+- Revenue concentration analysis  
+- Cohort retention analysis  
 
 ---
 
-## Dataset
+# Dataset
 
 Olist Brazilian E-Commerce Dataset
 
@@ -108,6 +114,22 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ---
 
-## Author
+# Project Structure
+
+```
+Olist-Ecommerce-Analytics
+│
+├── README.md
+│
+├── images
+│   └── dashboard_preview.png
+│
+└── sql
+    └── ecommerce_analysis.sql
+```
+
+---
+
+# Author
 
 Mert Dal
